@@ -1,0 +1,8 @@
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+}
+.carousel {
+    position: relative;
+    z-index: 0;
+}

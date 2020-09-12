@@ -1,9 +1,17 @@
 import React from "react";
-import s from './Music.module.css'
+import {connect} from "react-redux";
+import CarouselBox from "../../Carousel/Carousel";
 
-const Music = (props) =>{
-    return(
-        <div>Music</div>
+const Main = (props) =>{
+    return(<div>
+        <CarouselBox me={props.me.name}/>
+        </div>
     )
 }
-export default Music
+let mapStateToProps = (state) => {
+    return {
+        me: state.mainPage.me,
+        isAuth: state.mainPage.isAuth
+    }
+}
+export default connect(mapStateToProps)(Main)

@@ -1,0 +1,23 @@
+.header{
+    grid-area: h;
+    background-color: black;
+}
+.header img{
+    width: 20px;
+}
+
+.item a{
+    float: right;
+    color: white;
+    padding: 10px;
+}
+.item a.active{
+    color: blue;
+}
+.logout{
+    color: white;
+}
+
+.modal{
+    z-index: 9999;
+}
