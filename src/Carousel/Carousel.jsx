@@ -1,7 +1,7 @@
 import React from "react"
 import Carousel from "react-bootstrap/Carousel"
-import nebo from "../../../profilance-group/src/Assets/Image/Nebo.jpg"
-import ozero from "../../../profilance-group/src/Assets/Image/Ozero.jpg"
+import nebo from "../Assets/Image/Nebo.jpg"
+import ozero from "../Assets/Image/Ozero.jpg"
 import s from "./Carousel.css"
 
 const CarouselBox = (props) =>{
